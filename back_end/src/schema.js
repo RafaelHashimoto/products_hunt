@@ -4,6 +4,6 @@ function readSchema() {
   return readFileSync('src/schema.graphql').toString('utf-8')
 }
 
-module.export = {
-  readSchema: readSchema
+module.exports = {
+  readSchema
 }
